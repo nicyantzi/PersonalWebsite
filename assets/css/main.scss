@@ -1,0 +1,17 @@
+@import "0-tools/normalize";
+@import "0-tools/fonts";
+@import "0-tools/bourbon/bourbon";
+
+@import "1-base/_vars";
+@import "1-base/_base";
+
+@import "3-sections/header";
+@import "3-sections/welcome";
+@import "3-sections/about";
+@import "3-sections/resume";
+@import "3-sections/connect";
+@import "3-sections/projects";
+@import "3-sections/footer";
+
+
+@import "4-layouts/home";

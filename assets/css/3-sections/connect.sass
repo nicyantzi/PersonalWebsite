@@ -1,0 +1,56 @@
+section.connect
+  background:
+    image: url(/assets/img/McGillFourSeasons.jpg)
+    size: cover
+    position: center
+  .title
+    text-align: center
+    font-size: 30px
+    padding: 0
+    color: $light-color-text
+  .networks
+
+    padding-bottom: 30px
+
+    .linkedIn
+      +hide-text
+      background:
+        image: url(/assets/img/linkedInSquare.png)
+        size: contain
+        repeat: no-repeat
+        position: center
+      height: 128px
+
+    .github
+      +hide-text
+      background:
+        image: url(/assets/img/githubSquare.png)
+        size: contain
+        repeat: no-repeat
+        position: center
+      height: 128px
+
+    .instagram
+      +hide-text
+      background:
+        image: url(/assets/img/Instagram-v051916.png)
+        size: contain
+        repeat: no-repeat
+        position: center
+      height: 128px
+
+    .email
+      +hide-text
+      background:
+        image: url(/assets/img/email.png)
+        size: contain
+        repeat: no-repeat
+        position: center
+      height: 134px
+
+
+    .github, .instagram, .email, .linkedIn
+      transition: all 0.4s ease-in-out
+
+      &:hover
+        transform: scale(1.3)

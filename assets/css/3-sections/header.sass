@@ -1,0 +1,149 @@
+.home-wrap
+
+  header
+    width: 160px
+    background: $header-color
+    padding: 30px 0
+    margin: 0
+    .header-position
+      position: fixed
+      top: 20px
+      left: 10px
+      bottom: 20px
+      width: 135px
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+
+    .logo
+      +hide-text
+      max-width: 135px
+      background:
+        image: url(/assets/img/logony_futura.png)
+        repeat: no-repeat
+        position: center
+        size: contain
+      height: 135px
+      padding: 0
+      margin: 0
+
+    .site-nav
+      ul
+        list-style: none
+        margin: 20px 0
+        padding: 0 15px 0 0
+        text-align: right
+
+        li
+          margin-bottom: 20px
+          font-weight: bold
+
+          &:last-child
+            margin-bottom: 0
+
+    .email-link
+      display: block
+      text-align: right
+      padding: 0 15px 15px 0
+
+    .mobile-nav-toggle
+      display: none
+      width: 50px
+      height: 50px
+      margin-right: 30px
+      align-items: center
+      cursor: pointer
+
+      &:selection
+        background: transparent
+
+      &:-moz-selection
+        background: transparent
+
+      span,
+      span:before,
+      span:after
+        content: ""
+        display: block
+        height: 3px
+        width: 100%
+        background: $mobile-nav-toggle-colour
+        position: relative
+
+        transition: all 0.4s ease-in-out
+
+      span:before
+        top: 16px
+
+      span:after
+        top: -18px
+
+      &.is-open span
+        background: transparent
+
+      &.is-open span:before,
+      &.is-open span:after
+        transform-origin: center
+        transform: rotate(45deg)
+        top: 0
+
+      &.is-open span:before
+        transform: rotate(-45deg)
+
+  //Mobile Nav
+
+  .mobile-nav
+    display: none
+    position: absolute
+    width: 100%
+    background: $header-color
+    padding: 70px 0 30px
+    transition: all 0.3s ease-in-out
+
+    a
+      color: $link-color
+
+      &:hover, &:active
+        color: $link-color-highlight
+
+    ul
+      list-style: none
+      margin: 0
+      padding: 0
+
+    li
+      text-align: right
+      margin-right: 30px
+      margin-bottom: 15px
+      font-size: 26px
+
+
+@media (max-width: 800px)
+  .home-wrap
+    header
+      width: auto
+      padding: 20px 0
+
+      .header-position
+        width: auto
+        position: relative
+        top: auto
+        bottom: auto
+        left: auto
+        flex-direction: row
+        align-items: center
+
+      .site-nav,
+      .email-link
+        display: none
+
+      .logo
+        height: 70px
+
+      .mobile-nav-toggle
+        display: flex
+
+    .mobile-nav.is-open
+
+      display: block
+      transform: translateY(10%)

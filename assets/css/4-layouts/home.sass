@@ -1,0 +1,95 @@
+.home-wrap
+  display: flex
+  min-height: 100vh
+
+  @media (max-width: 800px)
+
+    display: block
+
+.home-sections
+  flex: 1
+
+  section
+    padding: 40px 0
+
+  .newSection
+    display: flex
+    flex-direction: rows
+
+  .columnsCentered
+    justify-content: center
+
+  .columnsSpaced
+    justify-content: space-around
+
+  .stackTop
+    order: 1
+
+  .col-headline
+    width: 55%
+    padding: 0 15px
+    box-sizing: border-box
+
+  .col-1
+    max-width: 640px
+    padding: 0 10px
+    box-sizing: border-box
+    width: 100%
+
+  .col-2
+    width: 320px
+    padding: 0 20px
+    box-sizing: border-box
+
+  .col-3
+    width: 213px
+    padding: 0 10px
+    box-sizing: border-box
+
+  .col-4
+    width: 160px
+    padding: 0 10px
+    box-sizing: border-box
+
+  .col-half
+    width: 50%
+    padding: 0 20px
+    box-sizing: border-box
+
+@media (max-width: 640px)
+
+  .home-sections
+
+    section
+      padding: 10px
+
+    .newSection
+      display: block
+
+
+      .col-headline
+        width: 65%
+        padding: 0 20px 0 0
+
+      .col-2
+        width: auto
+
+      .col-4
+        width: auto
+        margin-bottom: 40px
+      .col-half
+        width: auto
+        padding: 1px 20px
+
+
+
+@media (max-width: 425px)
+
+    .home-sections
+
+      section
+        padding: 4px
+
+      .newSection
+        .col-headline
+          width: 65%

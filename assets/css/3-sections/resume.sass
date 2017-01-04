@@ -1,0 +1,33 @@
+section.resume
+  background: $background-color-three
+  color: $light-color-text
+  text-align: center
+
+
+  a
+    color: lighten($light-color-text, 20%)
+
+  a:hover, a:focus
+
+    color: darken($light-color-text, 50%)
+
+
+  .resumePic
+    +hide-text
+    background:
+      image: url(/assets/img/resume.png)
+      size: contain
+      repeat: no-repeat
+      position: center
+      padding: 0
+      margin: 0
+    height: 300px
+    transition: all 1s ease-in-out
+
+    &:hover
+      transform: rotate(-365deg)
+
+  .resumeHighlights
+    ul
+      li
+        margin-bottom: 30px
