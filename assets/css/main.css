@@ -613,7 +613,7 @@ section.resume {
     margin-bottom: 30px; }
 
 section.connect {
-  background-image: url(/assets/img/McGillFourSeasons.jpg);
+  background-image: url(../img/McGillFourSeasons.jpg);
   background-size: cover;
   background-position: center; }
   section.connect .title {
@@ -627,7 +627,7 @@ section.connect {
       overflow: hidden;
       text-indent: 101%;
       white-space: nowrap;
-      background-image: url(/assets/img/linkedInSquare.png);
+      background-image: url(../img/linkedInSquare.png);
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
@@ -636,7 +636,7 @@ section.connect {
       overflow: hidden;
       text-indent: 101%;
       white-space: nowrap;
-      background-image: url(/assets/img/githubSquare.png);
+      background-image: url(../img/githubSquare.png);
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
@@ -645,7 +645,7 @@ section.connect {
       overflow: hidden;
       text-indent: 101%;
       white-space: nowrap;
-      background-image: url(/assets/img/Instagram-v051916.png);
+      background-image: url(../img/Instagram-v051916.png);
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
@@ -654,7 +654,7 @@ section.connect {
       overflow: hidden;
       text-indent: 101%;
       white-space: nowrap;
-      background-image: url(/assets/img/email.png);
+      background-image: url(../img/email.png);
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
