@@ -674,11 +674,13 @@ section.projects {
   section.projects .caption {
     text-align: center;
     padding: 0 0 10px 0; }
-  section.projects ul li {
-    margin-bottom: 20px; }
-    section.projects ul li span {
-      font-size: 20px;
-      font-weight: bolder; }
+  section.projects ul {
+    margin: 10px 0px; }
+    section.projects ul li {
+      padding: 15px 0; }
+      section.projects ul li span {
+        font-size: 20px;
+        font-weight: bolder; }
   section.projects .hus_gameplan {
     text-align: center;
     overflow: hidden;
@@ -687,7 +689,11 @@ section.projects {
     background-image: url(../img/hus_gameplan.png);
     background-size: contain;
     background-repeat: no-repeat;
-    height: 100px; }
+    height: 80px; }
+
+@media (max-width: 600px) {
+  .hus_gameplan {
+    margin-bottom: -15px; } }
 
 section.footer {
   display: none;
