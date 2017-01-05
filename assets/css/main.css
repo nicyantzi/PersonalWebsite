@@ -469,7 +469,7 @@ a:hover, a:focus {
   .home-wrap header .site-nav ul {
     list-style: none;
     margin: 20px 0;
-    padding: 0 15px 0 0;
+    padding: 0 5px 0 0;
     text-align: right; }
     .home-wrap header .site-nav ul li {
       margin-bottom: 20px;
@@ -479,7 +479,7 @@ a:hover, a:focus {
   .home-wrap header .email-link {
     display: block;
     text-align: right;
-    padding: 0 15px 15px 0; }
+    padding: 0 5px 15px 0; }
   .home-wrap header .mobile-nav-toggle {
     display: none;
     width: 50px;
