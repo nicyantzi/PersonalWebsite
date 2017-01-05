@@ -589,7 +589,9 @@ section.about {
 section.resume {
   background: #7B241C;
   color: #EAECEE;
-  text-align: center; }
+  text-align: left; }
+  section.resume .highlight, section.resume .caption {
+    text-align: center; }
   section.resume a {
     color: white; }
   section.resume a:hover, section.resume a:focus {
