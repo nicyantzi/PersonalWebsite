@@ -608,11 +608,7 @@ section.resume {
     background-position: center;
     background-padding: 0;
     background-margin: 0;
-    height: 300px;
-    transition: all 1s ease-in-out; }
-    section.resume .resumePic:hover, section.resume .resumePic:active {
-      -ms-transform: rotate(-365deg);
-          transform: rotate(-365deg); }
+    height: 300px; }
   section.resume .resumeHighlights ul li {
     margin-bottom: 15px; }
 
@@ -663,11 +659,6 @@ section.connect {
       background-repeat: no-repeat;
       background-position: center;
       height: 134px; }
-    section.connect .networks .github, section.connect .networks .instagram, section.connect .networks .email, section.connect .networks .linkedIn {
-      transition: all 0.4s ease-in-out; }
-      section.connect .networks .github:hover, section.connect .networks .github:active, section.connect .networks .instagram:hover, section.connect .networks .instagram:active, section.connect .networks .email:hover, section.connect .networks .email:active, section.connect .networks .linkedIn:hover, section.connect .networks .linkedIn:active {
-        -ms-transform: scale(1.3);
-            transform: scale(1.3); }
 
 section.projects {
   background: #F7DC6F; }
