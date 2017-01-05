@@ -590,6 +590,8 @@ section.resume {
   background: #7B241C;
   color: #EAECEE;
   text-align: left; }
+  section.resume .highlight {
+    padding: 0; }
   section.resume .highlight, section.resume .caption {
     text-align: center; }
   section.resume a {
@@ -612,7 +614,7 @@ section.resume {
       -ms-transform: rotate(-365deg);
           transform: rotate(-365deg); }
   section.resume .resumeHighlights ul li {
-    margin-bottom: 30px; }
+    margin-bottom: 15px; }
 
 section.connect {
   background-image: url(../img/McGillFourSeasons.jpg);
