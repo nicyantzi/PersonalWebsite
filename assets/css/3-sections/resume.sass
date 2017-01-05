@@ -19,13 +19,17 @@ section.resume
   .resumePic
     +hide-text
     background:
-      image: url(../img/resume.png)
+      image: url(../img/resume.gif)
       size: contain
       repeat: no-repeat
       position: center
       padding: 0
       margin: 0
     height: 300px
+    transition: all 1s ease-in-out
+
+    &:hover , &:focus
+      transform: rotate(-365deg)
 
   .resumeHighlights
     ul
