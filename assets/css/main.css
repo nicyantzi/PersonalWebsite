@@ -609,9 +609,6 @@ section.resume {
     background-padding: 0;
     background-margin: 0;
     height: 300px; }
-    section.resume .resumePic:hover section.resume .resumePic:focus {
-      -ms-transform: rotate(-365deg);
-          transform: rotate(-365deg); }
   section.resume .resumeHighlights ul li {
     margin-bottom: 15px; }
 
