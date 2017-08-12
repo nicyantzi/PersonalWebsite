@@ -589,14 +589,14 @@ a:hover, a:focus {
             transform: translateY(10%); } }
 
 section.welcome {
-  background-image: url(../img/nic.jpg);
+  background-image: url(../img/YantziNic.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: top; }
   section.welcome section {
-    padding: 60px; }
+    padding: 300px; }
   section.welcome .home-lead {
-    padding: 60px 0;
+    padding: 40px 0;
     color: #E8F6F3; }
 
 section.about {
@@ -779,9 +779,17 @@ section.footer {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1; }
+  .home-sections .bottom {
+    position: relative;
+    top: -100%;
+    -webkit-transform: translateY(95%);
+        -ms-transform: translateY(95%);
+            transform: translateY(95%);
+    display: block; }
   .home-sections .col-headline {
-    width: 55%;
-    padding: 0 15px;
+    width: 85%;
+    padding: 50px 15px;
+    margin: 200px 0px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box; }
   .home-sections .col-1 {
