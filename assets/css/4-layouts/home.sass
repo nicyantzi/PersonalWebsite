@@ -6,10 +6,30 @@
 
     display: block
 
+.posts > .post
+  padding-bottom: 2em
+  border-bottom: 1px solid lightGray
+
+
+.posts > .post:last-child
+  padding-bottom: 1em
+  border-bottom: none
+
+
+.post
+  .blockquote
+    margin: 1.8em .8em
+    border-left: 2px solid gray
+    padding: 0.1em 1em
+    color: gray
+    font-size: 22px
+    font-style: italic
+  
+
 .home-sections
   flex: 1
 
-  section
+  .section
     padding: 40px 0
 
   .newSection
@@ -32,8 +52,8 @@
     display: block
 
   .col-headline
-    width: 85%
-    padding: 50px 15px
+    width: 70%
+    padding: 0 40px 0 10px
     margin: 200px 0px
     box-sizing: border-box
 
@@ -81,7 +101,7 @@
 
       .col-headline
         width: 65%
-        padding: 0 20px 0 0
+        padding: 0 40px 40px 10px
 
       .col-2
         width: auto
